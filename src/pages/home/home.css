@@ -1,0 +1,43 @@
+
+.filter-button{
+    display: none;
+
+}
+
+.home-left-popup{
+    display: none;
+}
+.max-button,
+.min-button,
+.filter-button{
+    color: antiquewhite !important;
+    background: #3555d0;
+    border: none;
+    border-radius: 5px;
+    margin: 10px 0 10px 0 ;
+}
+@media screen and (max-width: 992px) {
+    .home-left {
+        display: none;
+    }
+
+    .filter-button {
+        display: block;
+    }
+
+    .home-left-popup {
+        display: block;
+        position: fixed;
+        top: auto;
+        left: auto;
+        right: auto;
+        bottom: auto;
+        width: 96%;
+        height: 100%;
+        z-index: 1000;
+    }
+
+    .home-left-popup.show {
+        display: block;
+    }
+}

@@ -1,0 +1,15 @@
+.active {
+    background-color: #13357c;
+    color: white;
+}
+.pointer{
+    cursor: pointer;
+    padding: 5px;
+    border-radius: 3px;
+}
+.pagbtn{
+    color: antiquewhite !important;
+        background: #3555d0;
+        border: none;
+        border-radius: 5px;
+}
