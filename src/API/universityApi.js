@@ -1,15 +1,11 @@
+import axios from "axios";
+
 const fetchUniversities = async (searchUniversity) => {
   try {
-    const response = await fetch(
+    const response = await axios.get(
       `http://universities.hipolabs.com/search?name=${searchUniversity}`
     );
-
-    if (!response.ok) {
-      throw new Error(`HTTP error! Status: ${response.status}`);
-    }
-
-    const data = await response.json();
-    return data;
+    return response.data;
   } catch (error) {
     console.error("Error fetching university data:", error);
     return [];
