@@ -28,7 +28,7 @@ const UniCard = ({ uniData }) => {
               <button className="btn">
                 <Link to={`${uniData.web_pages[0]}`}>
                   View Details
-                  <i class="ri-arrow-right-up-line"></i>
+                  <i className="ri-arrow-right-up-line"></i>
                 </Link>
               </button>
             </Col>

@@ -38,7 +38,7 @@ const HomeRight = ({
       <>
         {universities.length > 0 ? (
           universities.map((uni) => (
-            <Col lg="12" className="mb-4" key={uni.id}>
+            <Col lg="12" className="mb-4" key={uni.name}>
               <UniCard uniData={uni} />
             </Col>
           ))
