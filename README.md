@@ -1,70 +1,67 @@
-# Getting Started with Create React App
+# Overview
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a React-based web application that provides a user-friendly interface for exploring a list of universities worldwide. The application fetches data from the List of University API and presents it in an organized and responsive layout.
 
-## Available Scripts
 
-In the project directory, you can run:
+### `Prerequisites`
 
-### `npm start`
+Before you begin, ensure you have the following prerequisites:
+**Node.js and npm:**
+- Make sure you have Node.js installed on your machine. You can download it from https://nodejs.org/.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Key Features
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+**University List Display**
+-Fetched data from the List of University API.
+-Organized and presented the list of universities in a responsive layout.
 
-### `npm test`
+**Searching / Filtering by Country**
+-Implemented a filter for displaying universities based on selected countries.
+-Provided a checkbox system for efficient country-based filtering.
+-Displayed the count of universities for each selected country.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+**Show Max and Min**
+-Added functionality to highlight countries with the maximum and minimum numbers of universities.
 
-### `npm run build`
+**Total University Count**
+-Displayed the overall count of universities.
+-Provided a breakdown of university counts for each country post-filtering.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+**Pagination**
+-Implemented pagination for a structured display of universities.
+-Enabled seamless navigation with "Previous" and "Next" buttons.
+-Displayed page numbers for quick navigation.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+**Responsive Design**
+-Ensured the application's responsiveness across various screen sizes.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### `Getting Started`
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+To run the project locally, follow these steps:
+- Clone the repository: git clone https://github.com/Saurabh7762/unifinder
+- Install dependencies: npm install
+- Start the development server: npm start
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Visit http://localhost:3000 in your web browser to view the application.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### `Usage`
 
-## Learn More
+- Use the search bar to find Counry based on their names or keywords.
+- Filter universities by selecting one or more countries using the checkbox system.
+- Explore the total count of universities and the count breakdown for each country.
+- Identify countries with the maximum and minimum numbers of universities.
+- Navigate through the paginated list of universities with the "Previous" and "Next" buttons.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Dependencies
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+The project relies on the following libraries and frameworks. You can install them using npm:
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- **axios:** "^1.6.2"
+- **bootstrap:** "^5.3.2"
+- **react:** "^18.2.0"
+- **react-router-dom:** "^6.20.1"
+- **react-scripts:** "5.0.1"
+- **reactstrap:** "^9.2.1"
+- **remixicon:** "^3.6.0"
