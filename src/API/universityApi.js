@@ -3,7 +3,7 @@ import axios from "axios";
 const fetchUniversities = async (searchUniversity) => {
   try {
     const response = await axios.get(
-      `http://universities.hipolabs.com/search?name=${searchUniversity}`
+      `/.netlify/functions/proxy?name=${searchUniversity}`
     );
     return response.data;
   } catch (error) {
